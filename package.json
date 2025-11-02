@@ -5,9 +5,12 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:github": "ng build --configuration production --base-href \"https://wonderingfire.github.io/nat-codes/\"",
+    "deploy:github": "npx angular-cli-ghpages --dir=dist/nat-codes/browser",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:nat-codes": "node dist/nat-codes/server/server.mjs"
+
   },
   "prettier": {
     "printWidth": 100,
