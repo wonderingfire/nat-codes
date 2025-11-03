@@ -7,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrl: './header.scss',
 })
 export class Header {
+  scrollToSection(sectionId: string): void {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
 
 }

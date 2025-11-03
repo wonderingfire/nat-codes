@@ -2,10 +2,11 @@ import { Component, signal } from '@angular/core';
 import { Header } from "./components/header/header";
 import { Hero } from "./components/hero/hero";
 import { SideNav } from "./components/side-nav/side-nav";
+import { About } from "./components/about/about";
 
 @Component({
   selector: 'app-root',
-  imports: [Header, Hero, SideNav],
+  imports: [Header, Hero, SideNav, About],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
