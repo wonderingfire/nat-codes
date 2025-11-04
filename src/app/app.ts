@@ -3,10 +3,11 @@ import { Header } from "./components/header/header";
 import { Hero } from "./components/hero/hero";
 import { SideNav } from "./components/side-nav/side-nav";
 import { About } from "./components/about/about";
+import { Footer } from "./components/footer/footer";
 
 @Component({
   selector: 'app-root',
-  imports: [Header, Hero, SideNav, About],
+  imports: [Header, Hero, SideNav, About, Footer],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
