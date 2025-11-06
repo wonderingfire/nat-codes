@@ -1,3 +1,5 @@
+import { BracesIcon, BugOffIcon, ScaleIcon, ShieldIcon } from 'lucide-angular';
+
 export const coreStack: string[] = [
   'Java', 'Spring Boot', 'Spring Framework', 
   'Angular', 'TypeScript', 'JavaScript', 
@@ -28,9 +30,20 @@ export const missionItems = [
 ];
 
 export const whatIOfferList = [
-  'Feature development and system design.',
-  'Bug fixing and performance optimization.',
-  'Full stack development with Spring Boot and Angular.',
-  'Scalable and efficient application delivery.',
-  'Team collaboration for reliable software solutions.'
+  {
+    description: 'Feature development and system design.',
+    icon: BracesIcon
+  },
+  {
+    description: 'Bug fixing and performance optimization.',
+    icon: BugOffIcon
+  },
+  {
+    description: 'Full stack development with Spring Boot and Angular.',
+    icon: ShieldIcon
+  },
+  {
+    description: 'Scalable and efficient application delivery.',
+    icon: ScaleIcon
+  }
 ];

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { technicalExpertise } from './skills-data';
-import { LucideAngularModule, FileIcon } from 'lucide-angular';
+import { LucideAngularModule } from 'lucide-angular';
 
 @Component({
   selector: 'app-skills',

@@ -44,8 +44,9 @@ export const technicalExpertise = [
     topic: 'Databases',
     icon: DatabaseIcon,
     items: [
-      'SQL',
-      'GraphQl'
+      'Oracle SQL',
+      'MySQL',
+      'GraphQL'
     ]
   },
   {
