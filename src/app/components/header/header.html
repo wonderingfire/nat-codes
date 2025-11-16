@@ -1,20 +1,30 @@
-<header class="fixed inset-x-0 top-0 left-0 z-40 border-b border-gray-950/5 backdrop-blur-lg backdrop-grayscale">
-  <div class="mx-auto max-w-7xl flex justify-between items-center px-6 py-4">
-    <h1 class="text-2xl text-indigo-400 hover:text-indigo-500 duration-300 font-bold gradient-text cursor-default select-none" tabindex="-1">
-      Nat<span class="font-mono">.</span>
-    </h1>
-    <nav aria-label="primary navigation" class="hidden md:flex space-x-8 text-md text-gray-600 font-medium">
-      <button 
+<header class="inset-x-0 top-0 left-0 z-40">
+  <div class="flex justify-center mx-auto px-6 pt-5">
+    <nav aria-label="primary navigation"
+    class="hidden md:flex space-x-3 text-sm text-gray-600 px-3 shadow-xs py-1 rounded-full border-gray-300 border border-border">
+      <button
         href="#about"
         (click)="scrollToSection('about')"
         class="relative text-foreground px-2 py-1 hover:text-black">
         <span class="relative z-10">About</span>
       </button>
       <button 
+        href="#skills"
+        (click)="scrollToSection('skills')"
+        class="relative text-foreground px-2 py-1 hover:text-black">
+        <span class="relative z-10">Skills</span>
+      </button>
+      <button 
         href="#projects"
         (click)="scrollToSection('projects')"
         class="relative text-foreground px-2 py-1 hover:text-black">
         <span class="relative z-10">Projects</span>
+      </button>
+      <button 
+        href="#articles"
+        (click)="scrollToSection('articles')"
+        class="relative text-foreground px-2 py-1 hover:text-black">
+        <span class="relative z-10">Articles</span>
       </button>
       <button
         href="#contact"
@@ -23,10 +33,5 @@
         <span class="relative z-10">Contact</span>
       </button>
     </nav>
-    <button aria-label="Open menu" 
-      aria-expanded="false" aria-controls="mobile-menu" 
-      class="md:hidden text-indigo-400 focus:outline-none focus:ring-2 focus:ring-bg-indigo-400 rounded p-1 transition-colors hover:bg-indigo-400/10">
-      <lucide-angular class="size-6" [img]="MenuIcon"/>
-    </button>
   </div>
 </header>
